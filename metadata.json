@@ -1,0 +1,5 @@
+{
+  "name": "Sales Data Viewer",
+  "description": "A professional dashboard to view, filter, and analyze 'Bán hàng' (Sales) data with real-time visualization.",
+  "requestFramePermissions": []
+}
