@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { SaleRecord } from '../types';
-import { Search, Filter, Download, ArrowUpDown, X } from 'lucide-react';
+import { Search, Filter, Download, ArrowUpDown, X, FileText as TableIcon } from 'lucide-react';
 
 interface SalesTableProps {
   data: SaleRecord[];
