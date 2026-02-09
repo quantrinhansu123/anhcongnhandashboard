@@ -33,6 +33,7 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
+.cursor/
 
 # OS
 Thumbs.db
@@ -44,3 +45,19 @@ Thumbs.db
 
 # Build outputs
 *.tsbuildinfo
+
+# Ignore everything except project files
+/*
+!App.tsx
+!components/
+!constants.ts
+!index.html
+!index.tsx
+!package.json
+!services/
+!tsconfig.json
+!types.ts
+!vite.config.ts
+!.gitignore
+!README.md
+!metadata.json
