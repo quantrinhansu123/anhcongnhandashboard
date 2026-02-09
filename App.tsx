@@ -5,7 +5,7 @@ import { APP_ID, API_KEY, TABLE_NAME, CUSTOMER_TABLE_NAME, TIMEKEEPING_TABLE_NAM
 import { Stats } from './components/Stats';
 import { SalesTable } from './components/SalesTable';
 import { SalesChart } from './components/SalesChart';
-import { LayoutDashboard, LogOut, Settings, Bell, Database, Users, ShoppingBag, Clock, Calendar, Filter, Download, ChevronLeft, User, ArrowRight, Table as TableIcon, List, Grid3X3, AlertCircle, X } from 'lucide-react';
+import { LayoutDashboard, LogOut, Settings, Bell, Database, Users, ShoppingBag, Clock, Calendar, Filter, Download, ChevronLeft, User, ArrowRight, FileText as TableIcon, List, Grid3X3, AlertCircle, X } from 'lucide-react';
 
 // Helper function to parse date from mm/dd/yyyy format
 const parseDate = (dateStr: string | number | Date): Date | null => {
